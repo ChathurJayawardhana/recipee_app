@@ -6,8 +6,8 @@ import "../styles/Home.css"
 
 export default function Home() {
   return (
-    <div className='home'>
-      <div className='headerContainer' style={{backgroundImage:`url(${BannerImage}`}}>
+    <div className='home' style={{backgroundImage:`url(${BannerImage}`}}>
+      <div className='headerContainer' >
        <h1>Thara's Pizza</h1>
        <p>PIZZA TO FIT ANY TASTES</p>
        <Link to="/menu">
