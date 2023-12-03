@@ -10,7 +10,7 @@ export default function Navbar() {
       </div>
 
       <div className='rightside'>
-       <Link></Link>
+       <Link to='/'>Home</Link>
       </div>
     </div>
   )
